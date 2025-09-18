@@ -6,7 +6,7 @@ jobs:
   build:
     strategy:
       matrix:
-        buildtype: [Debug, Release]
+        buildtype: [Release]
 
     runs-on: ubuntu:20.04
     
