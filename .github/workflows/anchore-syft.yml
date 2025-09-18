@@ -15,7 +15,7 @@ name: Anchore Syft SBOM scan
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "workflow_dispatch" ]
 
 permissions:
   contents: write
